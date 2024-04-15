@@ -26,14 +26,14 @@
     "build:debug": "node-gyp configure build --debug"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
-    "nan": "^2.14.0"
+    "minimist": "^1.2.8",
+    "nan": "^2.19.0"
   },
   "os": [
     "!win32"
   ],
   "devDependencies": {
-    "node-gyp": "^4.0.0",
-    "tap": "^13.1.11"
+    "node-gyp": "^10.1.0",
+    "tap": "^18.7.2"
   }
 }
