@@ -431,5 +431,6 @@ static void init(Local<Object> exports) {
   Nan::SetMethod(exports, "emitSignal", Signal::EmitSignal);
 }
 
+NODE_MODULE(dbus, init);
 NAN_MODULE_WORKER_ENABLED(dbus, init);
 }  // namespace node_dbus
